@@ -1,0 +1,82 @@
+const bgStylePokemonType = {           
+      normal: "bg-gradient-to-b from-[#735259] via-[#7C3F4C] to-[#BC6B7C]",
+    fighting: "bg-gradient-to-b from-[#96402A] via-[#F1613C] to-[#CB735D]",
+      flying: "bg-gradient-to-b from-[] via-[] to-[]",
+      poison: "bg-gradient-to-b from-[#5B3184] via-[#A564E3] to-[#CE9BFF]",
+      ground: "bg-gradient-to-b from-[#654008] via-[#895C1A] to-[#895C1A]",
+        rock: "bg-gradient-to-b from-[#7E7E7E] via-[#8D8D94] to-[#D3D3D3]",
+         bug: "bg-gradient-to-b from-[#3BB039] via-[#62DB60] to-[#AAFFA8]",
+       ghost: "bg-gradient-to-b from-[#323569] via-[#454AA8] to-[#787DDA]",
+       steel: "bg-gradient-to-b from-[#5E736C] via-[#728881] to-[#A8A8A8]",
+        fire: "bg-gradient-to-b from-[#F96D6F] via-[#E35825] to-[#E8AE1B]",
+       water: "bg-gradient-to-b from-[#133258] via-[#1479FB] to-[#82B2F1]",
+       grass: "bg-gradient-to-b from-[#7EC6C5] via-[#ABDAC6] to-[#CAE099]",
+    electric: "bg-gradient-to-b from-[#0C1395] via-[#2B319B] to-[#7075D9]",
+     psychic: "bg-gradient-to-b from-[#E52D2D] via-[#E52D2D] to-[#F07F7F]",
+         ice: "bg-gradient-to-b from-[#6FBEDF] via-[#64CBF5] to-[#BDEBFE]",
+      dragon: "bg-gradient-to-b from-[#478A93] via-[#56A4AE] to-[#A2BEC1]",
+        dark: "bg-gradient-to-b from-[#030706] via-[#0D1211] to-[#5A5E5D]",
+       fairy: "bg-gradient-to-b from-[#971B45] via-[#C23867] to-[#CD7D98]",
+     unknown: "bg-gradient-to-b from-[] via-[] to-[]",
+      shadow: "bg-gradient-to-b from-[] via-[] to-[]",
+  }
+
+  const borderStyledPokemonByType = {
+//    grass: " border-green-500",  
+//    fire: "border-[5px] border-orange-500",  
+
+      normal: "border-[10px] border-[#735259]",
+    fighting: "border-[10px] border-[#96402A]",
+      flying: "border-[5px] border-[] via-[] to-[]",
+      poison: "border-[10px] border-[#5B3184]",
+      ground: "border-[10px] border-[#654008]",
+        rock: "border-[10px] border-[#7E7E7E]",
+         bug: "border-[10px] border-[#4AB648]",
+       ghost: "border-[10px] border-[#323569]",
+       steel: "border-[10px] border-[#5E736C]",
+        fire: "border-[10px] border-[#E6901E]",
+       water: "border-[10px] border-[#83B9FF]",
+       grass: "border-[10px] border-[#83B9FF]",
+    electric: "border-[10px] border-[#0C1395]",
+     psychic: "border-[10px] border-[#E52D2D]",
+         ice: "border-[10px] border-[#6FBEDF]",
+      dragon: "border-[10px] border-[#478A93]",
+        dark: "border-[10px] border-[#0B0E0D]",
+       fairy: "border-[10px] border-[#971B45]",
+     unknown: "border-[5px] border-[] via-[] to-[]",
+      shadow: "border-[5px] border-[] via-[] to-[]",    
+  }
+
+  const textStyledPokemonByType = {
+    //    grass: " border-green-500",  
+    //    fire: "border-[5px] border-orange-500",  
+    
+          normal: "text-[#735259]",
+        fighting: "text-[#96402A]",
+          flying: "border-[5px] border-[] via-[] to-[]",
+          poison: "text-[#5B3184]",
+          ground: "text-[#654008]",
+            rock: "text-[#7E7E7E]",
+             bug: "text-[#4AB648]",
+           ghost: "text-[#323569]",
+           steel: "text-[#5E736C]",
+            fire: "text-[#E6901E]",
+           water: "text-[#83B9FF]",
+           grass: "text-[#83B9FF]",
+        electric: "text-[#0C1395]",
+         psychic: "text-[#E52D2D]",
+             ice: "text-[#6FBEDF]",
+          dragon: "text-[#478A93]",
+            dark: "text-[#0B0E0D]",
+           fairy: "text-[#971B45]",
+         unknown: "border-[5px] border-[] via-[] to-[]",
+          shadow: "border-[5px] border-[] via-[] to-[]",    
+      }
+
+  export{
+    bgStylePokemonType,
+    borderStyledPokemonByType,
+    textStyledPokemonByType
+  }
+
+  //grass: "bg-gradient-to-t from-green-400 to-green-500",
