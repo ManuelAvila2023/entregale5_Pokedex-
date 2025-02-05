@@ -28,7 +28,7 @@ const Pokedex = () => {
       <section className="grid grid-rows-2 ">
         <p className="">
           <span className="text-[#FE1936] font-inter1 font-bold"> Welcome {name} </span>
-          <span className="font-inter1">, aquí podrás encontrar tu pokemón favorito </span>
+          <span className="font-inter1">, Here you can find your favorite Pokémon. </span>
         </p>
         <form className="flex flex-col-[1fr_auto] justify-between  gap-2">
           <div className="">
